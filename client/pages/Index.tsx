@@ -10,7 +10,8 @@ const featuredProducts = [
     name: "Premium Wireless Headphones",
     price: 149.99,
     originalPrice: 249.99,
-    image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&h=500&fit=crop",
+    image:
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&h=500&fit=crop",
     rating: 5,
     reviews: 248,
   },
@@ -19,7 +20,8 @@ const featuredProducts = [
     name: "Sleek Smartwatch Pro",
     price: 299.99,
     originalPrice: 399.99,
-    image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&h=500&fit=crop",
+    image:
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&h=500&fit=crop",
     rating: 4.5,
     reviews: 186,
   },
@@ -27,7 +29,8 @@ const featuredProducts = [
     id: "3",
     name: "Ultra Camera Lens",
     price: 599.99,
-    image: "https://images.unsplash.com/photo-1606986628025-35d57e735ae0?w=500&h=500&fit=crop",
+    image:
+      "https://images.unsplash.com/photo-1606986628025-35d57e735ae0?w=500&h=500&fit=crop",
     rating: 5,
     reviews: 342,
   },
@@ -36,7 +39,8 @@ const featuredProducts = [
     name: "Professional Backpack",
     price: 89.99,
     originalPrice: 129.99,
-    image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500&h=500&fit=crop",
+    image:
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500&h=500&fit=crop",
     rating: 4,
     reviews: 124,
   },
@@ -44,7 +48,8 @@ const featuredProducts = [
     id: "5",
     name: "Designer Sunglasses",
     price: 199.99,
-    image: "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=500&h=500&fit=crop",
+    image:
+      "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=500&h=500&fit=crop",
     rating: 4.5,
     reviews: 95,
   },
@@ -53,7 +58,8 @@ const featuredProducts = [
     name: "Portable Charger 20K",
     price: 49.99,
     originalPrice: 79.99,
-    image: "https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=500&h=500&fit=crop",
+    image:
+      "https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=500&h=500&fit=crop",
     rating: 5,
     reviews: 512,
   },
@@ -61,7 +67,8 @@ const featuredProducts = [
     id: "7",
     name: "Mechanical Keyboard RGB",
     price: 129.99,
-    image: "https://images.unsplash.com/photo-1587829191301-dc798b83add3?w=500&h=500&fit=crop",
+    image:
+      "https://images.unsplash.com/photo-1587829191301-dc798b83add3?w=500&h=500&fit=crop",
     rating: 4.5,
     reviews: 267,
   },
@@ -70,7 +77,8 @@ const featuredProducts = [
     name: "Wireless Mouse Pro",
     price: 59.99,
     originalPrice: 89.99,
-    image: "https://images.unsplash.com/photo-1527814050087-3793815479db?w=500&h=500&fit=crop",
+    image:
+      "https://images.unsplash.com/photo-1527814050087-3793815479db?w=500&h=500&fit=crop",
     rating: 4,
     reviews: 178,
   },
@@ -98,8 +106,9 @@ export default function Index() {
               </div>
 
               <p className="text-lg text-muted-foreground max-w-md">
-                Explore our curated collection of premium products. From tech gadgets to fashion
-                essentials, find everything you need at unbeatable prices.
+                Explore our curated collection of premium products. From tech
+                gadgets to fashion essentials, find everything you need at
+                unbeatable prices.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4">
@@ -107,9 +116,7 @@ export default function Index() {
                   Shop Now
                   <ArrowRight className="w-5 h-5 ml-2" />
                 </Link>
-                <button className="btn-outline">
-                  View Collections
-                </button>
+                <button className="btn-outline">View Collections</button>
               </div>
 
               {/* Stats */}
@@ -120,7 +127,9 @@ export default function Index() {
                 </div>
                 <div>
                   <p className="text-2xl font-bold text-primary">100K+</p>
-                  <p className="text-sm text-muted-foreground">Happy Customers</p>
+                  <p className="text-sm text-muted-foreground">
+                    Happy Customers
+                  </p>
                 </div>
                 <div>
                   <p className="text-2xl font-bold text-primary">24/7</p>
@@ -193,7 +202,8 @@ export default function Index() {
               Featured Products
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Check out our most popular items curated for your shopping pleasure
+              Check out our most popular items curated for your shopping
+              pleasure
             </p>
           </div>
 
@@ -221,8 +231,8 @@ export default function Index() {
               Stay in the Loop
             </h2>
             <p className="text-lg text-gray-300 mb-8">
-              Subscribe to our newsletter for exclusive deals, new arrivals, and style tips
-              delivered straight to your inbox.
+              Subscribe to our newsletter for exclusive deals, new arrivals, and
+              style tips delivered straight to your inbox.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-3">

@@ -93,10 +93,16 @@ export default function Header() {
             >
               Shop
             </Link>
-            <a href="#" className="block px-4 py-2 text-foreground hover:bg-muted rounded-lg transition-colors">
+            <a
+              href="#"
+              className="block px-4 py-2 text-foreground hover:bg-muted rounded-lg transition-colors"
+            >
               Collections
             </a>
-            <a href="#" className="block px-4 py-2 text-foreground hover:bg-muted rounded-lg transition-colors">
+            <a
+              href="#"
+              className="block px-4 py-2 text-foreground hover:bg-muted rounded-lg transition-colors"
+            >
               About
             </a>
           </nav>

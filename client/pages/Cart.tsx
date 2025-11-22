@@ -16,7 +16,10 @@ export default function Cart() {
       <div className="border-b border-border bg-white">
         <div className="container-custom py-4">
           <p className="text-sm text-muted-foreground">
-            <Link to="/" className="text-foreground hover:text-primary">Home</Link> / Cart
+            <Link to="/" className="text-foreground hover:text-primary">
+              Home
+            </Link>{" "}
+            / Cart
           </p>
         </div>
       </div>
@@ -47,7 +50,9 @@ export default function Cart() {
                 />
               </svg>
             </div>
-            <h2 className="text-2xl font-bold text-foreground mb-2">Your cart is empty</h2>
+            <h2 className="text-2xl font-bold text-foreground mb-2">
+              Your cart is empty
+            </h2>
             <p className="text-muted-foreground mb-8">
               Start shopping to add items to your cart
             </p>
@@ -70,7 +75,9 @@ export default function Cart() {
                     className="w-24 h-24 object-cover rounded-lg"
                   />
                   <div className="flex-1">
-                    <h3 className="font-semibold text-foreground">{item.name}</h3>
+                    <h3 className="font-semibold text-foreground">
+                      {item.name}
+                    </h3>
                     <p className="text-lg font-bold text-primary mt-2">
                       ${item.price}
                     </p>
@@ -95,7 +102,9 @@ export default function Cart() {
 
             {/* Order Summary */}
             <div className="h-fit bg-muted/50 rounded-lg p-6 space-y-4">
-              <h2 className="text-xl font-bold text-foreground">Order Summary</h2>
+              <h2 className="text-xl font-bold text-foreground">
+                Order Summary
+              </h2>
 
               <div className="space-y-3 py-4 border-y border-border">
                 <div className="flex justify-between">
@@ -121,7 +130,10 @@ export default function Cart() {
                 </span>
               </div>
 
-              <Link to="/checkout" className="w-full btn-primary justify-center">
+              <Link
+                to="/checkout"
+                className="w-full btn-primary justify-center"
+              >
                 Proceed to Checkout
               </Link>
 

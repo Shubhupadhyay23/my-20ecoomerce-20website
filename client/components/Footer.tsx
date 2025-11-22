@@ -15,7 +15,8 @@ export default function Footer() {
               <span className="font-bold text-lg">Elite Store</span>
             </div>
             <p className="text-gray-300 text-sm">
-              Premium quality products at exceptional prices. Your trusted online shopping destination.
+              Premium quality products at exceptional prices. Your trusted
+              online shopping destination.
             </p>
           </div>
 
@@ -24,7 +25,10 @@ export default function Footer() {
             <h3 className="font-bold text-lg mb-4">Shop</h3>
             <ul className="space-y-2 text-sm text-gray-300">
               <li>
-                <Link to="/products" className="hover:text-white transition-colors">
+                <Link
+                  to="/products"
+                  className="hover:text-white transition-colors"
+                >
                   All Products
                 </Link>
               </li>
@@ -77,7 +81,8 @@ export default function Footer() {
           <div>
             <h3 className="font-bold text-lg mb-4">Stay Updated</h3>
             <p className="text-sm text-gray-300 mb-4">
-              Subscribe to get special offers and updates directly to your inbox.
+              Subscribe to get special offers and updates directly to your
+              inbox.
             </p>
             <div className="flex">
               <input

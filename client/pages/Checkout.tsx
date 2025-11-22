@@ -54,7 +54,10 @@ export default function Checkout() {
       <div className="border-b border-border bg-white">
         <div className="container-custom py-4">
           <p className="text-sm text-muted-foreground">
-            <Link to="/" className="text-foreground hover:text-primary">Home</Link> / Checkout
+            <Link to="/" className="text-foreground hover:text-primary">
+              Home
+            </Link>{" "}
+            / Checkout
           </p>
         </div>
       </div>
@@ -85,8 +88,12 @@ export default function Checkout() {
                     {currentStep > step.number ? "✓" : step.number}
                   </div>
                   <div className="ml-4">
-                    <p className="font-semibold text-foreground">{step.title}</p>
-                    <p className="text-sm text-muted-foreground">{step.description}</p>
+                    <p className="font-semibold text-foreground">
+                      {step.title}
+                    </p>
+                    <p className="text-sm text-muted-foreground">
+                      {step.description}
+                    </p>
                   </div>
                   {index < steps.length - 1 && (
                     <div
@@ -103,7 +110,9 @@ export default function Checkout() {
             <div className="bg-white rounded-lg border border-border p-8">
               {currentStep === 1 && (
                 <div className="space-y-6">
-                  <h2 className="text-2xl font-bold text-foreground">Shipping Information</h2>
+                  <h2 className="text-2xl font-bold text-foreground">
+                    Shipping Information
+                  </h2>
 
                   <div className="space-y-4">
                     <input
@@ -184,7 +193,9 @@ export default function Checkout() {
 
               {currentStep === 2 && (
                 <div className="space-y-6">
-                  <h2 className="text-2xl font-bold text-foreground">Payment Information</h2>
+                  <h2 className="text-2xl font-bold text-foreground">
+                    Payment Information
+                  </h2>
 
                   <div className="space-y-4">
                     <input
@@ -218,7 +229,8 @@ export default function Checkout() {
 
                   <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
                     <p className="text-sm text-blue-900">
-                      For demo purposes, use any valid-looking card number. Your payment information is secure.
+                      For demo purposes, use any valid-looking card number. Your
+                      payment information is secure.
                     </p>
                   </div>
                 </div>
@@ -226,7 +238,9 @@ export default function Checkout() {
 
               {currentStep === 3 && (
                 <div className="space-y-6">
-                  <h2 className="text-2xl font-bold text-foreground">Order Summary</h2>
+                  <h2 className="text-2xl font-bold text-foreground">
+                    Order Summary
+                  </h2>
 
                   <div className="space-y-4 py-6 border-y border-border">
                     <div className="flex justify-between">
@@ -245,7 +259,9 @@ export default function Checkout() {
 
                   <div className="flex justify-between text-lg">
                     <span className="font-bold text-foreground">Total</span>
-                    <span className="font-bold text-primary text-xl">$323.99</span>
+                    <span className="font-bold text-primary text-xl">
+                      $323.99
+                    </span>
                   </div>
 
                   <div className="bg-green-50 border border-green-200 rounded-lg p-4">
@@ -270,7 +286,10 @@ export default function Checkout() {
               )}
 
               {currentStep < 3 ? (
-                <button onClick={handleNextStep} className="ml-auto btn-primary">
+                <button
+                  onClick={handleNextStep}
+                  className="ml-auto btn-primary"
+                >
                   Next
                   <ChevronRight className="w-5 h-5 ml-2" />
                 </button>
@@ -293,7 +312,9 @@ export default function Checkout() {
                   className="w-16 h-16 object-cover rounded"
                 />
                 <div>
-                  <p className="font-semibold text-sm">Premium Wireless Headphones</p>
+                  <p className="font-semibold text-sm">
+                    Premium Wireless Headphones
+                  </p>
                   <p className="text-primary font-bold mt-1">$299.99</p>
                 </div>
               </div>

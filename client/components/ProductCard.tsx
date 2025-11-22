@@ -81,9 +81,7 @@ export default function ProductCard({
                   />
                 ))}
               </div>
-              <span className="text-xs text-muted-foreground">
-                ({reviews})
-              </span>
+              <span className="text-xs text-muted-foreground">({reviews})</span>
             </div>
           )}
 

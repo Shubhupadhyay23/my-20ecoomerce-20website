@@ -43,7 +43,9 @@ export default function ProductDetail() {
             <div className="space-y-2">
               <div className="flex items-center gap-4">
                 <span className="text-3xl font-bold text-primary">$149.99</span>
-                <span className="text-xl text-muted-foreground line-through">$249.99</span>
+                <span className="text-xl text-muted-foreground line-through">
+                  $249.99
+                </span>
                 <span className="bg-primary text-white px-3 py-1 rounded-full text-sm font-bold">
                   -40%
                 </span>
@@ -53,9 +55,10 @@ export default function ProductDetail() {
             {/* Description */}
             <div className="border-t border-b border-border py-6">
               <p className="text-muted-foreground leading-relaxed">
-                Experience premium sound quality with active noise cancellation. Features 30-hour battery
-                life, premium comfort design, and intuitive touch controls. Perfect for music enthusiasts
-                and professionals alike.
+                Experience premium sound quality with active noise cancellation.
+                Features 30-hour battery life, premium comfort design, and
+                intuitive touch controls. Perfect for music enthusiasts and
+                professionals alike.
               </p>
             </div>
 
@@ -64,7 +67,8 @@ export default function ProductDetail() {
               <h3 className="font-bold text-lg">Key Features</h3>
               <ul className="space-y-2 text-muted-foreground">
                 <li className="flex items-center gap-2">
-                  <span className="text-primary">✓</span> Active Noise Cancellation
+                  <span className="text-primary">✓</span> Active Noise
+                  Cancellation
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="text-primary">✓</span> 30-Hour Battery Life
@@ -80,9 +84,7 @@ export default function ProductDetail() {
 
             {/* Action Buttons */}
             <div className="flex gap-4 pt-6">
-              <button className="flex-1 btn-primary">
-                Add to Cart
-              </button>
+              <button className="flex-1 btn-primary">Add to Cart</button>
               <button className="px-6 py-3 rounded-lg border-2 border-primary text-primary hover:bg-primary hover:text-white transition-colors font-semibold">
                 ♡ Wishlist
               </button>
@@ -90,28 +92,46 @@ export default function ProductDetail() {
 
             {/* Shipping Info */}
             <div className="bg-muted/50 p-4 rounded-lg space-y-2 text-sm">
-              <p className="font-semibold">📦 Free Shipping on orders over $50</p>
-              <p className="text-muted-foreground">✓ Returns accepted within 30 days</p>
-              <p className="text-muted-foreground">✓ 1-2 business day processing</p>
+              <p className="font-semibold">
+                📦 Free Shipping on orders over $50
+              </p>
+              <p className="text-muted-foreground">
+                ✓ Returns accepted within 30 days
+              </p>
+              <p className="text-muted-foreground">
+                ✓ 1-2 business day processing
+              </p>
             </div>
           </div>
         </div>
 
         {/* Reviews Section - Placeholder */}
         <div className="mt-20 pt-12 border-t border-border">
-          <h2 className="text-2xl font-bold text-foreground mb-8">Customer Reviews</h2>
+          <h2 className="text-2xl font-bold text-foreground mb-8">
+            Customer Reviews
+          </h2>
           <div className="text-center py-12 bg-muted/20 rounded-lg">
-            <p className="text-muted-foreground mb-4">Reviews section will be populated with real customer feedback</p>
-            <p className="text-sm text-muted-foreground">Continue building this page as needed</p>
+            <p className="text-muted-foreground mb-4">
+              Reviews section will be populated with real customer feedback
+            </p>
+            <p className="text-sm text-muted-foreground">
+              Continue building this page as needed
+            </p>
           </div>
         </div>
 
         {/* Related Products - Placeholder */}
         <div className="mt-20">
-          <h2 className="text-2xl font-bold text-foreground mb-8">Related Products</h2>
+          <h2 className="text-2xl font-bold text-foreground mb-8">
+            Related Products
+          </h2>
           <div className="text-center py-12 bg-muted/20 rounded-lg">
-            <p className="text-muted-foreground mb-4">Related products section coming soon</p>
-            <p className="text-sm text-muted-foreground">Continue building this page as needed</p>
+            <p className="text-muted-foreground mb-4">
+              Related products section coming soon
+            </p>
+            <p className="text-sm text-muted-foreground">
+              Continue building this page as needed
+            </p>
           </div>
         </div>
       </div>

@@ -24,7 +24,9 @@ export default function OrderConfirmation() {
 
           {/* Order Details */}
           <div className="bg-white border border-border rounded-lg p-8 mb-8 text-left">
-            <h2 className="text-xl font-bold text-foreground mb-6">Order Details</h2>
+            <h2 className="text-xl font-bold text-foreground mb-6">
+              Order Details
+            </h2>
 
             <div className="space-y-4 pb-6 border-b border-border mb-6">
               <div className="flex gap-4">
@@ -66,7 +68,9 @@ export default function OrderConfirmation() {
           {/* Shipping & Billing Info */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
             <div className="bg-muted/50 rounded-lg p-6 text-left">
-              <h3 className="font-bold text-foreground mb-4">Shipping Address</h3>
+              <h3 className="font-bold text-foreground mb-4">
+                Shipping Address
+              </h3>
               <p className="text-sm text-muted-foreground leading-relaxed">
                 John Doe
                 <br />
@@ -79,7 +83,9 @@ export default function OrderConfirmation() {
             </div>
 
             <div className="bg-muted/50 rounded-lg p-6 text-left">
-              <h3 className="font-bold text-foreground mb-4">Billing Address</h3>
+              <h3 className="font-bold text-foreground mb-4">
+                Billing Address
+              </h3>
               <p className="text-sm text-muted-foreground leading-relaxed">
                 John Doe
                 <br />
@@ -97,7 +103,10 @@ export default function OrderConfirmation() {
             <h3 className="font-bold text-foreground mb-4">What's Next?</h3>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>✓ A confirmation email has been sent to your email</li>
-              <li>✓ Your order will be processed and shipped within 1-2 business days</li>
+              <li>
+                ✓ Your order will be processed and shipped within 1-2 business
+                days
+              </li>
               <li>✓ You can track your order from your account dashboard</li>
               <li>✓ Questions? Contact our support team anytime</li>
             </ul>
@@ -108,9 +117,7 @@ export default function OrderConfirmation() {
             <Link to="/products" className="btn-outline">
               Continue Shopping
             </Link>
-            <button className="btn-primary">
-              Download Invoice
-            </button>
+            <button className="btn-primary">Download Invoice</button>
           </div>
         </div>
       </div>
